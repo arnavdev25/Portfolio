@@ -1,0 +1,53 @@
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.grid>div{
+    background-color: #000000d0;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.sociallinks{
+    margin-left: 100px;
+    /* width: 35%; */
+    /* border: 1px solid white; */
+}
+@media all and (min-width:51px) and (max-width:381px){
+.grid{
+    grid-template-columns: repeat(2,1fr);
+}
+.grid img{
+    height: 70px;
+    width: 70px;
+}
+}
+.grid>div:hover{
+  background-color: rgb(31, 31, 112);
+}
+@media all and (min-width:51px) and (max-width:381px){
+    .sociallinks {
+        font-size: 10px;
+       margin-left: 0px;
+    }
+    .sociallinks img{
+        height: 15px;
+        width: 15px;
+      
+    }
+    .sociallinks > div {
+        margin-top: 20px;
+    }
+    
+}
