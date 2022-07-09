@@ -23,7 +23,7 @@ and user-friendly applications using
 MERN
 and some other cool libraries and frameworks.
             </p>
-            <a style={{marginTop:"-20px"}} target="_blank" href="https://docs.google.com/document/d/1Vv-9WSOl3vLv0YZ4owDLZviAORy-1ekm/edit?usp=sharing&ouid=113946876522474575983&rtpof=true&sd=true" className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' rel="noreferrer">
+            <a style={{marginTop:"-20px"}} target="_blank" href="https://drive.google.com/file/d/1zliLrIsWBIoKTNcu2gGJ2gtjJoQ0ihF8/view?usp=sharing" className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' rel="noreferrer">
               Resume
             </a>
           </div>

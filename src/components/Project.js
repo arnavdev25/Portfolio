@@ -15,7 +15,7 @@ import {
 } from 'react-icons/fi';
 const Project = ({ item }) => {
   return (
-    <div key={item.id} className='flex flex-col ' >
+    <div key={item.id} className='flex flex-col hover:scale-105 duration-500 ' >
       <div className='mb-8'>
         <img className='rounded-2xl' style={{height:"250px"}} src={item.image} alt='' />
       </div>

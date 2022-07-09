@@ -23,7 +23,7 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 // projects images
 import Zee5 from './assets/img/projects/Zee5 Project.png';
 import kindmeal from './assets/img/projects/Kindmeal.png';
-import TicTacToe from './assets/img/projects/TicTacToe.png';
+import Modesense from './assets/img/projects/modesense.png';
 import YouTube from './assets/img/projects/YouTube.png';
 import sudoku from './assets/img/projects/sudoku.png';
 import FrontendMaster from './assets/img/projects/FrontendMaster.png';
@@ -45,6 +45,13 @@ import SkillImg10 from './assets/img/skills/express.png';
 import SkillImg11 from './assets/img/skills/materialui.png';
 import SkillImg12 from './assets/img/skills/mongo.png';
 import SkillImg5 from './assets/img/skills/redux.png';
+import SkillImg13 from './assets/img/skills/cypress.png';
+import SkillImg14 from './assets/img/skills/BootStrap.png';
+import SkillImg15 from './assets/img/skills/jest.jpg';
+import SkillImg16 from './assets/img/skills/npm.png';
+import SkillImg17 from './assets/img/skills/Python.jpg';
+import SkillImg18 from './assets/img/skills/Tallwind.png';
+
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
@@ -160,16 +167,16 @@ export const projectsData = [
     desc:"A web Application to Learn Frontend courses & watch videos on it."
 
   },
-  // {
-  //   id: '4',
-  //   image: YouTube,
-  //   name: 'Youtube Clone',
-  //   category: 'HTML, CSS, Advanced JS',
-  //   pro:"Major Project",
-  //   git:"https://github.com/muskan2507/Youtube/tree/main/Youtube",
-  //   dep:"https://astonishing-scone-e66097.netlify.app/",
-  //   desc:"A web Application to watch different kinds of videos"
-  // },
+  {
+    id: '4',
+    image: Modesense,
+    name: 'Modesense Clone',
+    category: 'React, Express, MongoDB, Node.js, CSS, Advanced JS',
+    pro:"Major Project",
+    git:"https://github.com/muskan2507/Modesense-Clone",
+    dep:"https://modesense.netlify.app/",
+    desc:"ModeSens is your digital shopping assistant for the smart and informed. Established in 2015,"
+  },
   {
     id: '5',
     image: sudoku,
@@ -299,6 +306,30 @@ export const skills = [
   {
     image:SkillImg12,
     name:"MongoDB"
+  },
+  {
+    image:SkillImg13,
+    name:"Cypress"
+  },
+  {
+    image:SkillImg14,
+    name:"BootStrap"
+  },
+  {
+    image:SkillImg15,
+    name:"Jest"
+  },
+  {
+    image:SkillImg16,
+    name:"NPM"
+  },
+  {
+    image:SkillImg17,
+    name:"Python"
+  },
+  {
+    image:SkillImg18,
+    name:"Tallwind"
   }
 ];
 

@@ -6,7 +6,7 @@
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
     row-gap: 30px;
     column-gap: 20px;
 }
@@ -24,6 +24,10 @@
     /* width: 35%; */
     /* border: 1px solid white; */
 }
+.grid>div:hover{
+    scale: 110;
+    animation-duration: 100;
+}
 @media all and (min-width:51px) and (max-width:381px){
 .grid{
     grid-template-columns: repeat(2,1fr);
@@ -33,9 +37,7 @@
     width: 70px;
 }
 }
-.grid>div:hover{
-  background-color: rgb(31, 31, 112);
-}
+
 @media all and (min-width:51px) and (max-width:381px){
     .sociallinks {
         font-size: 10px;
