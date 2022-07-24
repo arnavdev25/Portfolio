@@ -27,7 +27,7 @@ import Modesense from './assets/img/projects/modesense.png';
 import YouTube from './assets/img/projects/YouTube.png';
 import sudoku from './assets/img/projects/sudoku.png';
 import FrontendMaster from './assets/img/projects/FrontendMaster.png';
-
+import FabBag from "./assets/img/projects/fabbag.png"
 import Github from './assets/img/projects/Github.png';
 import Restaurent from './assets/img/projects/Restaurent.png';
 import Timer from './assets/img/projects/Timer.png';
@@ -137,6 +137,17 @@ export const brands = [
 // projects
 export const projectsData = [
   {
+      id: '6',
+      image: FabBag,
+      name: 'FabBag Clone',
+      category: 'Next.js, TypeScript, React, Material-UI, Express, MongoDB, Node.js',
+      pro:"Major Project",
+      git:"https://github.com/muskan2507/FabBag-Clone",
+      dep:"https://warlike-current-5989.vercel.app/",
+      desc:"FABBAG is a beauty experts &   addicts driven by passion for high-quality beauty products and delightful service."
+  
+    },
+  {
     id: '1',
     image: Zee5,
     name: 'Zee5 Clone',
@@ -187,17 +198,7 @@ export const projectsData = [
     dep:"https://steady-cendol-1a5f7c.netlify.app/",
     desc:"A web Application to play Sudoku and and find a genius solution."
   },
-  // {
-  //   id: '6',
-  //   image: TicTacToe,
-  //   name: 'Tic Tac Toe',
-  //   category: 'HTML, CSS, Advanced JS',
-  //   pro:"Minor Project",
-  //   git:"https://github.com/muskan2507/Tic-Tac-Toe/tree/main/Tic%20Tac%20Toe",
-  //   dep:"https://tranquil-cheesecake-739fc7.netlify.app/",
-  //   desc:"A web Application to Tic Tac Toe Sudoku and enjoy"
-
-  // },
+  //
   // {
   //   id: '7',
   //   image: Timer,
