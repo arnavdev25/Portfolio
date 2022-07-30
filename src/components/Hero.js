@@ -30,7 +30,7 @@ and some other cool libraries and frameworks.
           <div className='hidden lg:flex flex-1 justify-end items-center h-full' style={{marginTop:"0px"}}>
             <img 
             style={{borderRadius:"50%",height:"350px"}}
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQHMpkkw35Desg/profile-displayphoto-shrink_400_400/0/1653725262727?e=1658966400&v=beta&t=zxdjBGsLEGFxEVa_pDAJp5wK0t3jBm0uPAsVpl-tSxQ" alt='' />
+            src="https://avatars.githubusercontent.com/u/98902869?v=4" alt='' />
           </div>
         </div>
       </div>
